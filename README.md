@@ -9,13 +9,22 @@ For some columns which are categorical variables need to be transformed digitall
 
 Those columns were transformed with sklearn.preprocessing package. 
 ## EDA 
-### Numerical variabels distributions
+### Numerical Variables Distributions
 First of all, the distribution plots can help us to understand those variables better. 
 we can see that #3, #11,#17,#18,#19,#20,#21 have "extreme" outliers or only contain single value which means those variables are not really informative.
 ![images/num_distribution.png](images/num_distribution.png)
-### catogorical variabels distributions
+### Catogorical Variables Distributions
 similarly, we can see 2,15,17,18,20,23,27,39,41,44,47,48, have "extreme" outliers. Those columns cannot help us to explore more and give us more information.
 ![images/cat_distribution.png](images/cat_distribution.png)
 
 ### Target Distribution
 ![images/target_distribution.png](images/target_distribution.png)
+
+
+### Numerical Variables VS Target
+![images/num_vs_target.png](images/num_vs_target.png)
+
+### Catogorical Variables VS Target
+![images/cat_vs_target.png](images/cat_vs_target.png)
+### Correlation
+![images/correlation.png](images/correlation.png)
