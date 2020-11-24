@@ -18,8 +18,8 @@ similarly, we can see 2,15,17,18,20,23,27,39,41,44,47,48, have "extreme" outlier
 ![images/cat_distribution.png](images/cat_distribution.png)
 
 ### Target Distribution
-![images/target_distribution.png](images/target_distribution.png)
 As we can see that the distribution of the target is right skewed and if we transform the data with "log" we can obtain normal distributed target.  
+![images/target_distribution.png](images/target_distribution.png)
 
 ### Numerical Variables VS Target
 ![images/num_vs_target.png](images/num_vs_target.png)
