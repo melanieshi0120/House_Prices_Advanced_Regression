@@ -21,8 +21,11 @@ similarly, we can see 2,15,17,18,20,23,27,39,41,44,47,48, have "extreme" outlier
 As we can see that the distribution of the target is right skewed and if we transform the data with "log" we can obtain normal distributed target.  
 ####
 ![images/target_distribution.png](images/target_distribution.png)
-
 ### Numerical Variables VS Target
+we can check the linearity between numerical independent variables and dependent variables and also we can see if one independent variable and dependent variable do not have linearity, it might affect our predictive models.
+
+Based on those scatter plots,  #1,2,5,8,9,12,15,17 charts have outliers so I removed the outliers for those variables. Then in #11, 18,20,21 variables  most values are 0 which means that those columns are not really informative.
+####
 ![images/num_vs_target.png](images/num_vs_target.png)
 
 ### Catogorical Variables VS Target
