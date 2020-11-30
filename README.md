@@ -27,8 +27,13 @@ we can check the linearity between numerical independent variables and dependent
 Based on those scatter plots,  #1,2,5,8,9,12,15,17 charts have outliers so I removed the outliers for those variables. Then in #11, 18,20,21 variables  most values are 0 which means that those columns are not really informative.
 ####
 ![images/num_vs_target.png](images/num_vs_target.png)
-
 ### Catogorical Variables VS Target
+- BsmFullBath, TotRmsAbvGrd, Fireplaces, FullBath,OverallQual and PavedDrive positively affect the housing price. 
+- KitchenAbvGr and GarageFinish negatively affect the housing price. 
+- The variables of MoSold, YrSold, LandSlope cannot affect the housing prices significantly.
+- Since Utilities only contains one value so it cannot bring us more useful information.
+- Some specific values of the variables influence the housing price. For example, if the value of HalfBath is 1, the housing price is more experience, but if the value is 3 the price is lower.  Another example is  when GarageCars is 2, housing price is more experience but when it is 0,1 or 2 the housing price is lower.
+####
 ![images/cat_vs_target.png](images/cat_vs_target.png)
 ### Correlation
 ![images/correlation.png](images/correlation.png)
