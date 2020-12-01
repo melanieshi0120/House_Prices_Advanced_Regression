@@ -45,5 +45,8 @@ Based on those scatter plots,  #1,2,5,8,9,12,15,17 charts have outliers so I rem
 This step is part of data engineering, which is to find te correlation between features. If one variable can explain another, then we just need to use one variable to predict our target so that we can get better prediction. Besides, correlation can indicate the presence of a causal relationship. In this part, the code is for removing some features if their correlations are higher 0.9. The results show that there is not any features higher than 0.9.
 ![images/correlation.png](images/correlation.png)
 
-
-
+### Modeling
+In this part, Random Forest was applied to predict the housing price. The first step is to use GridSearch to tune the parameters, and used the parameters to predict the target.
+The accuracy of the validation data is up to 97%  and the RMSE is 0.57.
+The distribution of the residual is normal distributed. The chart of predicted values VS actual values shows 45 degree  which means that our predicted values converge to actual values.
+![images/residual_and_predict_vs_actual.png](images/residual_and_predict_vs_actual.png)
