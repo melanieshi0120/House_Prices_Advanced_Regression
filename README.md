@@ -35,6 +35,15 @@ Based on those scatter plots,  #1,2,5,8,9,12,15,17 charts have outliers so I rem
 - Some specific values of the variables influence the housing price. For example, if the value of HalfBath is 1, the housing price is more experience, but if the value is 3 the price is lower.  Another example is  when GarageCars is 2, housing price is more experience but when it is 0,1 or 2 the housing price is lower.
 ####
 ![images/cat_vs_target.png](images/cat_vs_target.png)
-### Correlation
+### Data Engineering
+
+#### Data Standardization
+
+#### Train test split
+
+#### Feature Selection
 This step is part of data engineering, which is to find te correlation between features. If one variable can explain another, then we just need to use one variable to predict our target so that we can get better prediction. Besides, correlation can indicate the presence of a causal relationship. In this part, the code is for removing some features if their correlations are higher 0.9. The results show that there is not any features higher than 0.9.
 ![images/correlation.png](images/correlation.png)
+
+
+
